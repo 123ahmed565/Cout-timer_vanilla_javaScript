@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position:center center;
+    font-family: sans-serif;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.countdown-container{
+  display: flex;
+  padding: 10px;
+  /* padding-top: 90px; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+}
+
+.count-el {
+    text-align: center;
+}
+.count-el span{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.big-text{
+    padding: 60px;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
